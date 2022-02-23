@@ -1,24 +1,9 @@
 {
-    "name": "marcuball/virtual-phone",
+    "name": "marcusball/do-bug-test",
     "type": "project",
     "require-dev": {
         "heroku/heroku-buildpack-php": "^192.0"
     },
-    "require": {
-        "monolog/monolog": "^2.2",
-        "slim/slim": "4.*",
-        "guzzlehttp/psr7": "^1.8",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "php-di/php-di": "^6.3",
-        "twilio/sdk": "^6.24",
-        "vlucas/phpdotenv": "^5.3",
-        "lcobucci/jwt": "^4.1",
-        "cakephp/chronos": "^2.1",
-        "symfony/polyfill-uuid": "^1.23"
-    },
-    "autoload": {
-        "psr-4": {
-            "VirtualPhone\\": "src/"
-        }
-    }
+    "require": {},
+    "autoload": {}
 }
