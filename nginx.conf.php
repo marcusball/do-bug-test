@@ -18,7 +18,7 @@ http {
 
         server_tokens off;
 
-        fastcgi_buffers 32 4k;
+        fastcgi_buffers 8 4k;
 
         # define an easy to reference name that can be used in fastgi_pass
         upstream heroku-fcgi {
