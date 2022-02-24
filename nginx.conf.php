@@ -18,8 +18,8 @@ http {
 
         server_tokens off;
 
-        fastcgi_buffering off;
-        # fastcgi_buffers 8 4k;
+        fastcgi_buffering <?=getenv('FCGI_BUFFERING')?:'on'?>;
+        fastcgi_buffers <?=getenv('FCGI_BUFFER_NUM')?:'8'?> <?=getenv('FCGI_BUFFER_SIZE')?:'4k'?>;
 
         # define an easy to reference name that can be used in fastgi_pass
         upstream heroku-fcgi {
