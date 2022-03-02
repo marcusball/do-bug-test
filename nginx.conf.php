@@ -56,7 +56,7 @@ http {
 
                 root "<?=getenv('DOCUMENT_ROOT')?:getenv('HEROKU_APP_DIR')?:getcwd()?>";
 
-                error_log stderr;
+                error_log stderr debug;
                 access_log /tmp/heroku.nginx_access.<?=getenv('PORT')?:'8080'?>.log;
 
                 include "<?=getenv('HEROKU_PHP_NGINX_CONFIG_INCLUDE')?>";
