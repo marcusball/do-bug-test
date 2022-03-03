@@ -1,1 +1,0 @@
-web: /workspace/heroku-php-nginx -f php-fpm.conf -F php-fpm.inc.conf -c nginx.conf.php -C nginx_app.conf public/ 
