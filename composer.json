@@ -1,9 +1,0 @@
-{
-    "name": "marcusball/do-bug-test",
-    "type": "project",
-    "require-dev": {
-        "heroku/heroku-buildpack-php": "^192.0"
-    },
-    "require": {},
-    "autoload": {}
-}
